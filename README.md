@@ -4,12 +4,12 @@ My very first public program! It's just a random Telegram bot that uses <a href=
 If you want to try it, follow this steps:
 
 
--Create a new bot on Telegram (Searching for @BotFather)
+* Create a new bot on Telegram (Searching for @BotFather)
 
--Use /token on @BotFather and copy that token
+* Use /token on @BotFather and copy that token
 
--Go to dependencies/gen-dep.rb and change TOKEN for your token
+* Go to dependencies/gen-dep.rb and change TOKEN for your token
 
--Change NAME to the name of your bot.
+* Change NAME to the name of your bot.
 
--You're ready!
+* You're ready!
