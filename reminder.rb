@@ -1,5 +1,5 @@
 require 'telegram/bot'
-require_relative 'dependencies'
+require_relative 'dependencies/gen-dep.rb'
 
 def recordatorio
 	dir = 'chats'
