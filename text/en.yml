@@ -1,0 +1,35 @@
+en:
+    start: "Hi hi~ If you're Spanish, use '/lang es'!"
+    homework:
+        homeworkstart: "Homework! From what subject?"
+        subject: "Okay, so it is from _0_. What is it then?"
+        date: "Alright! You can now specify when should I remind you of this with the keyboard (Start putting the month), or you can just simply press 'No' to finish."
+        nodate: "Perfect. There won't be a date for this homework."
+        month: "Great! Now put the day."
+        day: "Now the hour"
+        hour: "Finally, the minutes"
+        finish: "Finished!"
+        end: "That's all! I've just assigned homework of _0_ and that you have to _1_. Date: _2_"
+        endnodate: "That's all! I've just assigned homework of _0_ and that you have to _1_."
+    show:
+        nohw: "You don't have any homework! Add one with /homework"
+        added: "Added by: "
+    delete:
+        nohw: "You don't have homeworks to delete! The list is empty."
+        list: "There you have a list of the things you can delete!"
+        finished: "Finished."
+        continue: "Deleted! You can keep deleting things if you want."
+    h:
+        struct: "Command: /h [Subject] - [Homework] - [[Day]/[Month] [Hour]:[Minutes] (Optional)] (Example: 3/6 11:50)"
+        novalid: "That date is not valid!"
+        success: "Added!"
+    lang:
+        success: "Language changed!"
+        invalid: "Invalid format! '/lang es' for Spanish, '/lang en' for English"
+    m:
+        notconfigured: "You haven't configured me yet! Use /configm in the group you want me to send your messages."
+        error: "Error! Try putting again /configm in your group."
+        ready: "Ready!"
+    rn:
+        notvalid: "Your numbers are invalid! Command: '/rn [number1] [number2]'"
+        greatererror: "The first number is greater than the second. I can't do the maths :c"

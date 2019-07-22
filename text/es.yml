@@ -1,0 +1,36 @@
+es:
+    start: "¡Hola! ¡Usa '/help' para obtener una lista de comandos!"
+    reminder: "¡Hay algo que hacer de _0_! Escribe '/mostrar' para ver que tareas tienes pendientes."
+    homework:
+        homeworkstart: "¡Tarea! Especificame de qué materia."
+        subject: "De acuerdo, es tarea de _0_ ¿Qué hay que hacer?"
+        date: "¡De acuerdo! Ahora puedes ponerme una fecha con el teclado de abajo (Empieza poniendo el mes), o simplemente apretar el 'No' para terminar."
+        nodate: "Perfecto, no habrá limite de fecha."
+        month: "¡Bien! Ahora pon el día"
+        day: "Ahora la hora"
+        hour: "Por ultimo, los minutos"
+        finish: "¡Terminado!"
+        end: "¡Listo! Ya asigné que hay tarea de _0_ y que hay que hacer _1_. Con fecha de _2_"
+        endnodate: "¡Listo! Ya asigné que hay tarea de _0_ y que hay que hacer _1_."
+    show: 
+        nohw: "¡No tienes tareas! Agrega una con /homework."
+        added: "Agregada por: "
+    delete:
+        nohw: "¡No tienes ninguna tarea que borrar! La lista esta vacia."
+        list: "¡Ahí tienes una lista de los que puedes borrar!"
+        finished: "Borrado terminado."
+        continue: "¡Borrado! Puedes seguir borrando mas si quieres."
+    h:
+        struct: "Estructura del comando: /h [Materia] - [Cosa que hacer] - [Fecha (Opcional)] (Ejemplo: 3/6 11:50)"
+        novalid: "¡Esa fecha no es válida!"
+        success: "¡Agregado!"
+    lang:
+        success: "¡Idioma cambiado!"
+        invalid: "¡Formato invalido! '/lang es' para español, '/lang en' para inglés"
+    m:
+        notconfigured: "¡No has configurado tu /m! Usa /configm en el grupo donde quieras que yo mande tus mensajes."
+        error: "¡Hubo un error! Prueba a poner de vuelta /configm en tu grupo."
+        ready: "¡Listo!"
+    rn:
+        notvalid: "¡No has puesto algo valido! El comando es '/rn [numero1] [numero2]'"
+        greatererror: "¡El primer numero es mayor al segundo! No puedo hacer el calculo :c"

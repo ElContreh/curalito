@@ -1,0 +1,10 @@
+/start - Sauda! 
+/cancel - Cancela a operación actual
+/lang lenguaje - Cambia a linguaxe (es = Español, en = Inglés)
+/homework - Escribe unha tarefa
+/delete - Borra unha tarefa 
+/show - Mostra as tarefas que tes actualmente!
+/rn numero1 numero2 - Xenera un numero random entre numero1 e numero2
+/h - Escribe unha tarefa nun soa mensaxe. Estructura do comando: /t [Materia] - [Cosa que facer]
+/m - Manda unha mensaxe a un grupo anonimamente
+/configm - Configurame pra mandar mensaxes ou multimedia anonima a calquera chat onde eu estei! So pon iste comando no grupo e xa.

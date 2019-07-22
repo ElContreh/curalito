@@ -1,0 +1,35 @@
+ga:
+    start: "Ola! Usa help para obter unha lista dos comandos!"
+    homework:
+        homeworkstart: "¡Tarefa! Especificame de que materia"
+        subject: "Dacordo, é tarefa de _0_ Que tes que facer?"
+        date: "Dacordo! Agora podes porme unha fecha co teclado de debaixo (empeza pondo o mes), Ou simplemente pulsa o 'Non' pra rematar"
+        nodate: "Perfecto, non haberá fecha límite"
+        month: "Ben! Agora pon o día!"
+        day: "Agora a hora"
+        hour: "Por último os minutos"
+        finish: "Rematado!"
+        end: "Listo! Xa asignei que tes tarefa de _0_ e que tes que facer _1_. Coa fecha de _2_"
+        endnodate: "Listo! Xa asignei que tes tarefa de _0_ e que tes que facer _1_."
+    show: 
+        nohw: "Non tes tarefas! Agrega unha con /homework"
+        added: "Agregada por: "
+    delete:
+        nohw: "Non tes ningunha tarefa pra borrar! A lista está baleira!"
+        list: "Ahí tes unha lista dos que podes borrar!"
+        finished: "Borrado rematado."
+        continue: "Borrado! Podes seguir borrando máis se queres"
+    h:
+        struct: "Estructura do comando: /h [Materia] - [Cousas que facer] - [Fecha (Opcional)] (Exemplo: 3/6 11:50)"
+        novalid: "Esa fecha non é válida!"
+        success: "Agregado!"
+    lang:
+        success: "Idioma cambiado!"
+        invalid: "Formato inválido! '/lang es' pra español, '/lang en' pra inglés, 'lang ga' pra galego"
+    m:
+        notconfigured: "Non configuraches teu /m! Usa /configm no grupo onde queiras que che mande as tuas mensaxes!"
+        error: "Houbo un erro! Proba a por de volta /configm no teu grupo"
+        ready: "Listo!"
+    rn:
+        notvalid: "Non puxeches algo válido! O comando é '/rn [numero1] [numero2]'"
+        greatererror: "O primeiro número é maior ao segundo! Non podo facer ese cálculo :c"

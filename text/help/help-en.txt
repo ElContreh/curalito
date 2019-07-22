@@ -1,0 +1,10 @@
+﻿/start - I welcome you!
+/cancel - Cancels the current operation.
+/lang language - Changes the language (es = Spanish - en = English)
+/homework - Stores homework.
+/delete - Deletes homework.
+/show - Shows all the homework you currently have!
+/rn number1 number2 - Gives you a random number between number1 and number2
+/h - Stores homework in just one message. Command: /h [Subject] - [Homework] - [Date (Optional)]
+/m text - Sends a message to a group anonimously
+/configm - Tells me where do I send stuff (with /m, photos, videos, etc). Just put this command in the group you want me to send them.
