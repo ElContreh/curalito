@@ -1,5 +1,5 @@
 # curalito
-My very first public program! It's just a random Telegram bot that uses atiplugins's telegram-bot-ruby to work. I don't know if you use GitHub to upload this kind of stuff but I'm just gonna do it.
+My very first public program! It's just a random Telegram bot that uses <a href="https://github.com/atipugin/telegram-bot-ruby">atiplugins's telegram-bot-ruby<a/> to work. I don't know if you use GitHub to upload this kind of stuff but I'm just gonna do it.
 
 If you want to try it, follow this steps:
 
