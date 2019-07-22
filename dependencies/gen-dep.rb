@@ -57,7 +57,7 @@ class Telegram::Bot::Types::Message
 
 end
 
-TOKEN = 'XXXX' #Token bot. Talk to BotFather in Telegram to get one. It is used to tell Telegram what bot is running this program.
-NAME = 'curalitobot' #The username of your bot.
+TOKEN = '707236552:AAH2887UZUAKnB8fBxyBGDQo5IVMZ4hYzyI' #Token bot. Talk to BotFather in Telegram to get one. It is used to tell Telegram what bot is running this program.
+NAME = 'curalitodevelopbot' #The username of your bot.
 BOT = Telegram::Bot::Client.new(TOKEN)
 

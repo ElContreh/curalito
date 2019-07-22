@@ -1,3 +1,5 @@
+require_relative '../../dependencies/userconfig-dep.rb'
+
 def run(user)
 
 	userconfig_dir = "userconfig/#{user.message.from.id.to_s}"
@@ -8,7 +10,7 @@ def run(user)
 	end
 
 	if (regex = arguments.match(/^([a-z]{2})$/))
-		Dir.mkdir(userconfig_dir) if !File.directory?(userconfig_dir)
+		config_create(user)
 		File.open("#{userconfig_dir}/locale.txt",'w') {|file| file.puts regex[1]}
 		I18n.locale = set_locale(user)
 		BOT.api.send_message(chat_id: user.message.chat.id, text: I18n.t('lang.success'))

@@ -30,6 +30,7 @@ def run(user)
 		date = "N/A"
 	end
 	
+	Dir.mkdir("chats") if !File.directory?("chats")
 	Dir.mkdir("chats/#{message.chat.id.to_s}") if !File.directory?("chats/#{message.chat.id.to_s}")
 	Dir.mkdir(homework_folder) if !File.directory?(homework_folder)
 	inthw = (Dir.entries(homework_folder)-['.']-['..']).length

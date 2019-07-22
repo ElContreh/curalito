@@ -2,7 +2,6 @@ def run(user)
 	
 	message = user.message
 	configm_path = "userconfig/#{message.from.id.to_s}/chatm.txt"
-	userconfig_dir = "userconfig/#{user.message.from.id.to_s}"
 	if message.text.index(' ') != nil
 		arguments = message.text.slice(message.text.index(' ')+1..message.text.length)
 	else arguments = ''
@@ -14,8 +13,6 @@ def run(user)
 	end
 		
 	begin
-	
-		Dir.mkdir(userconfig_dir) if !File.directory?(userconfig_dir)
 		
 		if !File.exists?(configm_path)
 			

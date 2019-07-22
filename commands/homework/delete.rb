@@ -1,3 +1,4 @@
+require_relative '../../dependencies/hw-dep.rb'
 def run(user)
 
 	message = user.message
