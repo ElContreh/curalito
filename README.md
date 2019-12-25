@@ -1,7 +1,7 @@
 # curalitobot (A Ruby Telegram bot)
 My very first public program! It's just a random Telegram bot that uses <a href="https://github.com/atipugin/telegram-bot-ruby">atiplugins's telegram-bot-ruby<a/> to work. I don't know if you use GitHub to upload this kind of stuff but I'm just gonna do it.
 
-If you want to try it, follow this steps:
+If you want to try it, chat to @curalitobot on Telegram, or you can follow these steps if it's offline at the moment:
 
 
 * Create a new bot on Telegram (Searching for @BotFather)
